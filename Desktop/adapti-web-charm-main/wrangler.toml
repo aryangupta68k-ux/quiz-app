@@ -1,0 +1,10 @@
+# Cloudflare Pages Configuration
+# This file configures Cloudflare Pages to use npm instead of bun
+
+[build]
+command = "npm run build"
+cwd = "."
+
+[build.environment_variables]
+NODE_VERSION = "18"
+
